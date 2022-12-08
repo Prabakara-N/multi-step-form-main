@@ -38,11 +38,11 @@
 
       <!-- sidebar end -->
 
-      <!-- personal info start -->
+      <!-- personal info-card start -->
 
-      <section class="your-info">
-        <h1 class="info-title">Personal info</h1>
-        <p class="info-para">
+      <section class="page your-info">
+        <h1 class="info-title title">Personal info</h1>
+        <p class="info-para para">
           Please provide your name, email address, and phone number.
         </p>
         <div class="info-input-container">
@@ -74,23 +74,83 @@
           />
         </div>
       </section>
+      <!-- personal info-card end -->
+      <!-- page 1 end -->
 
-      <!-- personal info end -->
+      <!-- page 2 start -->
 
-      <!-- button nxt start -->
+      <section class="page plan-section">
+        <h1 class="plan-main-title title">Select your plan</h1>
+        <p class="plan-para para">
+          You have the option of monthly or yearly billing.
+        </p>
+        <!-- plan type/month start -->
+        <div class="plan-type-container">
+          <img
+            src="./assets/images/icon-arcade.svg"
+            alt="arcade"
+            class="plan-img"
+          />
+          <div class="plan-type">
+            <div class="plan-type-name">Arcade</div>
+            <div class="plan-month">$9/mo</div>
+          </div>
+        </div>
+        <div class="plan-type-container">
+          <img
+            src="./assets/images/icon-advanced.svg"
+            alt="advanced"
+            class="plan-img"
+          />
+          <div class="plan-type">
+            <div class="plan-type-name">Advanced</div>
+            <div class="plan-month">$12/mo</div>
+          </div>
+        </div>
+        <div class="plan-type-container">
+          <img src="./assets/images/icon-pro.svg" alt="Pro" class="plan-img" />
+          <div class="plan-type">
+            <div class="plan-type-name">Pro</div>
+            <div class="plan-month">$15/mo</div>
+          </div>
+        </div>
+        <!-- plan type/month start -->
+        <div class="toggle-container">
+          <p class="monthly">Monthly</p>
+          <div class="tog">
+            <input type="checkbox" id="switch" class="toggle" />
+          </div>
 
-      <div class="btn-section">
+          <p class="yearly">Yearly</p>
+        </div>
+      </section>
+
+      <!-- page 2 end -->
+
+      <!-- page 3 start -->
+
+      <section class="pick-up-section page">
+        <h1 class="pick-title title">Pick add-ons</h1>
+        <p class="pick-para para">
+          Add-ons help enhance your gaming experience.
+        </p>
+      </section>
+
+      <!-- page 3 end -->
+
+      <!-- button section start -->
+
+      <div class="button btn-section-1">
+        <button class="btn-back">Go Back</button>
         <button class="btn-next">Next Step</button>
+      </div>
+      <div class="button btn-section-2">
+        <button class="btn-back">Go Back</button>
+        <button class="btn-confirm">confirm</button>
       </div>
     </section>
 
-    <!-- button nxt end-->
-
-    <!-- page 1 end -->
-
-    <!-- page 2 start -->
-
-    <!-- page 2 end -->
+    <!-- button section end-->
 
     <!-- Custom JavaScript -->
     <script src="./script/script.js"></script>

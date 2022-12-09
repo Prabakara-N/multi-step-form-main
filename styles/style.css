@@ -20,14 +20,6 @@
   --clr-White: #ffffff;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -247,4 +239,112 @@ input[type="number"]::-webkit-outer-spin-button {
 .yearly {
   color: var(--clr-Cool-gray);
   font-weight: bold;
+}
+
+/* page 3 */
+
+.pick-up-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem 0.5rem 1.25rem;
+  border: 2px solid var(--clr-Light-gray);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.pick-cbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.add-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.pick-method {
+  margin-top: 8px;
+}
+
+.pick-service {
+  color: var(--clr-Marine-blue);
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.service-para {
+  color: var(--clr-Cool-gray);
+  font-size: 0.9rem;
+}
+
+.pick-price {
+  color: var(--clr-Purplish-blue);
+  font-size: 0.9rem;
+}
+
+/* page 4 */
+
+.finishing-section {
+  margin-top: 4rem;
+}
+
+.selected-method-container {
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+  background-color: var(--clr-Alabaster);
+  border-radius: 10px;
+}
+
+.method-per-yr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  font-weight: 500;
+  color: #5c5c5f;
+  display: block;
+  margin-top: -0.8rem;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-top: 0.1px solid var(--clr-Cool-gray);
+}
+
+.arcade-monthly {
+  color: var(--clr-Marine-blue);
+  font-weight: bold;
+}
+
+.service-storage {
+  padding-top: 10px;
+  color: var(--clr-Cool-gray);
+  font-size: 700;
+}
+
+.per-yr {
+  color: var(--clr-Marine-blue);
+}
+
+.total-amount-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-para {
+  color: var(--clr-Cool-gray);
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.total-per-yr {
+  color: var(--clr-Purplish-blue);
+  font-weight: bold;
+  font-size: 1.15rem;
 }

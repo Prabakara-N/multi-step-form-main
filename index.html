@@ -45,9 +45,10 @@
         <p class="info-para para">
           Please provide your name, email address, and phone number.
         </p>
-        <div class="info-input-container">
+        <form class="info-input-container">
           <label for="name">Name</label>
           <input
+            name="username"
             type="text"
             id="name"
             placeholder="e.g. Stephen King"
@@ -57,6 +58,7 @@
 
           <label for="email">Email Address</label>
           <input
+            name="mail"
             type="email"
             id="email"
             placeholder="e.g. stephenking@lorem.com"
@@ -66,13 +68,14 @@
 
           <label for="number">Phone Number</label>
           <input
+            name="mobile-number"
             type="number"
             id="number"
             placeholder="e.g. +1 234 567 890"
             class="personal-inputs"
             required
           />
-        </div>
+        </form>
       </section>
       <!-- personal info-card end -->
       <!-- page 1 end -->
@@ -118,7 +121,11 @@
         <div class="toggle-container">
           <p class="monthly">Monthly</p>
           <div class="tog">
-            <input type="checkbox" id="switch" class="toggle" />
+            <!-- Rounded switch -->
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider round"></span>
+            </label>
           </div>
 
           <p class="yearly">Yearly</p>

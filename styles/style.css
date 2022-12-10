@@ -131,6 +131,10 @@ label {
   margin-top: 4rem;
 }
 
+.btn-section-2 {
+  display: none;
+}
+
 .btn-next {
   padding: 0.7rem 1.25rem;
   color: var(--clr-White);
@@ -190,6 +194,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /* page 2 */
 .plan-section {
+  display: none;
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
@@ -315,6 +320,9 @@ input:checked + .slider:before {
 /*  */
 
 /* page 3 */
+.pick-up-section {
+  display: none;
+}
 
 .pick-up-container {
   display: flex;
@@ -363,6 +371,7 @@ input:checked + .slider:before {
 
 .finishing-section {
   margin-top: 4rem;
+  display: none;
 }
 
 .selected-method-container {
@@ -487,6 +496,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+/*  */
+/*  */
+
+/* thanku card */
+
 .thanku-img {
   width: 80px;
   height: 80px;
@@ -497,6 +511,7 @@ input:checked + .slider:before {
 }
 
 .thanku-card-section {
+  display: none;
   margin-top: 4rem;
   padding: 2rem 2.75rem;
 }
@@ -539,4 +554,37 @@ input:checked + .slider:before {
 .social:hover {
   transition: all 0.3s;
   transform: scale(1.05) translateY(-7px);
+}
+
+/*  */
+/* media queory */
+/*  */
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 0;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .all-section {
+    width: 80%;
+    margin: auto;
+  }
+
+  .front-page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url(../assets/images/bg-sidebar-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }

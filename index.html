@@ -28,55 +28,56 @@
     <!-- page 1 -->
     <section class="all-section">
       <!-- sidebar start -->
+      <div class="front-page">
+        <section class="sidebar">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+        </section>
 
-      <section class="sidebar">
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn">4</button>
-      </section>
+        <!-- sidebar end -->
 
-      <!-- sidebar end -->
+        <!-- personal info-card start -->
 
-      <!-- personal info-card start -->
+        <section class="page your-info">
+          <h1 class="info-title title">Personal info</h1>
+          <p class="info-para para">
+            Please provide your name, email address, and phone number.
+          </p>
+          <form class="info-input-container">
+            <label for="name">Name</label>
+            <input
+              name="username"
+              type="text"
+              id="name"
+              placeholder="e.g. Stephen King"
+              class="personal-inputs"
+              required
+            />
 
-      <section class="page your-info">
-        <h1 class="info-title title">Personal info</h1>
-        <p class="info-para para">
-          Please provide your name, email address, and phone number.
-        </p>
-        <form class="info-input-container">
-          <label for="name">Name</label>
-          <input
-            name="username"
-            type="text"
-            id="name"
-            placeholder="e.g. Stephen King"
-            class="personal-inputs"
-            required
-          />
+            <label for="email">Email Address</label>
+            <input
+              name="mail"
+              type="email"
+              id="email"
+              placeholder="e.g. stephenking@lorem.com"
+              class="personal-inputs"
+              required
+            />
 
-          <label for="email">Email Address</label>
-          <input
-            name="mail"
-            type="email"
-            id="email"
-            placeholder="e.g. stephenking@lorem.com"
-            class="personal-inputs"
-            required
-          />
-
-          <label for="number">Phone Number</label>
-          <input
-            name="mobile-number"
-            type="number"
-            id="number"
-            placeholder="e.g. +1 234 567 890"
-            class="personal-inputs"
-            required
-          />
-        </form>
-      </section>
+            <label for="number">Phone Number</label>
+            <input
+              name="mobile-number"
+              type="number"
+              id="number"
+              placeholder="e.g. +1 234 567 890"
+              class="personal-inputs"
+              required
+            />
+          </form>
+        </section>
+      </div>
       <!-- personal info-card end -->
       <!-- page 1 end -->
 

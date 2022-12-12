@@ -396,7 +396,8 @@ a {
 }
 
 hr {
-  border-top: 0.1px solid var(--clr-Cool-gray);
+  border-top: 1px solid var(--clr-Cool-gray);
+  border-bottom: none;
 }
 
 .arcade-monthly {
@@ -433,7 +434,7 @@ hr {
   font-size: 1.15rem;
 }
 
-/* thankyou card */
+/* toggle */
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -548,7 +549,19 @@ input:checked + .slider:before {
 }
 
 .fa-instagram {
-  color: #e1306c;
+  border-radius: 25%;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #8a3ab9 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social:hover {

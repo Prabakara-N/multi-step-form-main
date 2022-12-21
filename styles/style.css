@@ -88,7 +88,7 @@ label {
   width: 92%;
   margin: auto;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25), -2px -2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
 }
 /*  */
@@ -194,7 +194,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /* page 2 */
 .plan-section {
-  display: none;
+  /* display: none; */
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
@@ -321,7 +321,7 @@ input:checked + .slider:before {
 
 /* page 3 */
 .pick-up-section {
-  display: none;
+  /* display: none; */
 }
 
 .pick-up-container {
@@ -371,7 +371,7 @@ input:checked + .slider:before {
 
 .finishing-section {
   margin-top: 4rem;
-  display: none;
+  /* display: none; */
 }
 
 .selected-method-container {
@@ -512,7 +512,7 @@ input:checked + .slider:before {
 }
 
 .thanku-card-section {
-  display: none;
+  /* display: none; */
   margin-top: 4rem;
   padding: 2rem 2.75rem;
 }
